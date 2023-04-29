@@ -1,7 +1,10 @@
+"use client";
+
 import { MoonIcon, SunIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import CityPicker from "./CityPicker";
 import weatherCodeToString from "@/lib/weatherCodeToString";
+import { useRouter } from "next/navigation";
 
 type Props = {
   city: string;
@@ -11,10 +14,14 @@ type Props = {
 };
 
 function InformationPanel({ city, lat, long, results }: Props) {
+  const router = useRouter();
+
   return (
     <div className="bg-gradient-to-br from-[#394F68] to-[#183B7E] text-white p-10">
       <div className="pb-5">
-        <h1 className="text-6xl font-bold">{decodeURI(city)}</h1>
+        <button type="button" onClick={() => router.back()}>
+          <h1 className="text-6xl font-bold">{decodeURI(city)}</h1>
+        </button>
         <p className="text-xs text-gray-400">
           Long/Lat: {long}, {lat}
         </p>

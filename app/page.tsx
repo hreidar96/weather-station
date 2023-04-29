@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#394F68] to-[#183B7E] p-10 flex flex-col justify-center items-center">
       <Card className="max-w-4xl mx-auto">
-        <Text className="text-6xl font-bold text-center mb-10">
+        <Text className="text-3xl font-bold text-center mb-10 sm:text-4xl lg:text-6xl">
           Veðurstöðin
         </Text>
         <Subtitle className="text-xl text-center">
