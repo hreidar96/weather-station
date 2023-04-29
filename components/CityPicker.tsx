@@ -57,7 +57,7 @@ function CityPicker() {
       <div className="space-y-2">
         <div className="flex items-center space-x-2 text-white/80">
           <GlobeIcon className="h-5 w-5 text-white" />
-          <label htmlFor="country">Country</label>
+          <label htmlFor="country">Land</label>
         </div>
         <Select
           className="text-black"
@@ -71,7 +71,7 @@ function CityPicker() {
         <div className="space-y-2">
           <div className="flex items-center space-x-2 text-white/80">
             <GlobeIcon className="h-5 w-5 text-white" />
-            <label htmlFor="country">City</label>
+            <label htmlFor="country">Borg</label>
           </div>
           <Select
             className="text-black"

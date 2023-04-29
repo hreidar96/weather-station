@@ -34,7 +34,7 @@ function InformationPanel({ city, lat, long, results }: Props) {
             })}
           </p>
           <p className="font-extralight">
-            Timezone: {Intl.DateTimeFormat().resolvedOptions().timeZone}
+            Tímabelti: {Intl.DateTimeFormat().resolvedOptions().timeZone}
           </p>
         </div>
 
