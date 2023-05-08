@@ -1,4 +1,4 @@
-import { SunIcon } from "@heroicons/react/solid";
+import { SunIcon } from "@heroicons/react/24/solid";
 
 function Loading() {
   return (

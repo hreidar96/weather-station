@@ -1,6 +1,6 @@
 "use client";
 
-import { MoonIcon, SunIcon } from "@heroicons/react/solid";
+import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import CityPicker from "./CityPicker";
 import weatherCodeToString from "@/lib/weatherCodeToString";

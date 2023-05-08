@@ -1,6 +1,9 @@
 "use client";
 
-import { CheckCircleIcon, ExclamationIcon } from "@heroicons/react/solid";
+import {
+  CheckCircleIcon,
+  ExclamationCircleIcon,
+} from "@heroicons/react/24/solid";
 import { Callout } from "@tremor/react";
 
 type Props = {
@@ -13,7 +16,7 @@ function CalloutCard({ message, warning }: Props) {
     <Callout
       className="mt-4"
       title={message}
-      icon={warning ? ExclamationIcon : CheckCircleIcon}
+      icon={warning ? ExclamationCircleIcon : CheckCircleIcon}
       color={warning ? "rose" : "teal"}
     />
   );
