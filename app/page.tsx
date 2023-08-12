@@ -12,7 +12,7 @@ export default function Home() {
           Veðurstöðin
         </Text>
         <Subtitle className="text-xl text-center">
-          Keyrt áfram af OpenAI, Next.js, TailwindCSS, Tremor 2.0 + meira!
+          Powered by OpenAI, Next.js, TailwindCSS, Tremor 2.0 + more!
         </Subtitle>
         <Divider className="my-10" />
         <Card className="bg-gradient-to-br from-[#394F68] to-[#183B7E]">
