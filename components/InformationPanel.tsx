@@ -19,7 +19,7 @@ function InformationPanel({ city, lat, long, results }: Props) {
   return (
     <div className="bg-gradient-to-br from-[#394F68] to-[#183B7E] text-white p-10">
       <div className="pb-5">
-        <button type="button" onClick={() => router.back()}>
+        <button type="button" onClick={() => router.push("/")}>
           <h1 className="text-4xl md:text-6xl font-bold">{decodeURI(city)}</h1>
         </button>
         <p className="text-xs text-gray-400">
